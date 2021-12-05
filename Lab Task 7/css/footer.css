@@ -1,0 +1,30 @@
+
+/* Starting Footer part */
+footer{
+  background: #3c404bd9;
+
+}
+.footer_part {
+    /* height: 50px; */
+    align-items: center;
+    background: #3c404bd9;
+    min-height: auto;
+} 
+.navbar-nav {
+}
+.footer_left {
+    padding: 31px 0%;
+    padding-left: 1%;
+}
+.navbar{
+    list-style: none;
+}
+.navbar {
+    list-style: none;
+    padding-top: 17px;
+    padding-right: 51px;
+}
+/*  */
+/* Ending footer part */
+ a {
+    color: #ffffff;}

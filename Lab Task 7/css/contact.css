@@ -1,0 +1,92 @@
+.form-part{
+    background-image: url(../images/form.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30vh;
+    background-color: #03030270;
+    background-blend-mode: color;
+}
+.contact-info{
+
+width: 50%;
+
+margin: auto;
+}
+.contac2-header{
+
+color: #fff;
+
+/* margin: auto; */
+
+text-align: center;
+
+padding: 50px,0;
+
+padding: 50px 0;
+}
+.contac2-header h1{
+    
+font-size: 35px;
+}
+.contac2-header p{
+    margin-top: 20px;
+}
+form{
+    resize: none;
+}
+form input{
+
+width: 100%;
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #999999;
+
+padding: 16px 0;
+
+border-radius: 5px;
+
+margin: 5px 0;
+}
+form ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 40px 0px;
+
+vertical-align: middle;
+
+height: 50px;
+}
+form ul li{
+
+}
+input[type="button"]{
+
+padding: 0;
+
+margin: 0;
+
+padding: 5px 10px;
+
+color: #fff;
+
+border: 1px solid #15a4fa;
+
+font-size: 18px;
+}
+input[type="checkbox"]{
+    width: 13px;
+}
+textarea{
+    background: transparent;
+    width: 100%;
+    resize: none;
+}
