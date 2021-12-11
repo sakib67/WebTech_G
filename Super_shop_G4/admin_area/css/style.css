@@ -1,0 +1,115 @@
+/* Header css */
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* navbar styling */
+nav{
+  background-color: aliceblue;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: 'Ubuntu', sans-serif;
+  }
+ 
+  nav.sticky{
+    background: #4070f4;
+    padding: 13px 0;
+  }
+  nav .navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-color: aqua;
+  }
+  nav .navbar .logo a{
+    font-weight: 500;
+    font-size: 35px;
+    color: #4070f4;
+  }
+  nav.sticky .navbar .logo a{
+    color: #fff;
+  }
+  nav .navbar .tabs{
+    display: flex;
+    position: relative;
+  }
+  nav .navbar .tabs li{
+    list-style: none;
+    margin: 0 8px;
+  }
+  .navbar .tabs  a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E2431;
+    padding: 6px 0;
+    transition: all 0.4s ease;
+  }
+  .navbar .tabs  a:hover{
+    color: #4070f4;
+  }
+  nav.sticky .tabs  a{
+    color: #FFF;
+  }
+  nav.sticky .tabs  a:hover{
+    color: #0E2431;
+  }
+  .navbar .media-icons a{
+    color: #4070f4;
+    font-size: 18px;
+    margin: 0 6px;
+  }
+  nav.sticky .media-icons a{
+    color: #FFF;
+  }
+  /* Header css end */
+ 
+/* Here content div css to display a single div from multiple div */
+
+  /* css code */
+[data-tab-content]{
+  display: none;
+}
+.active[data-tab-content]{
+  display: block;
+}
+.tabs{
+  display: flex;
+  justify-content:space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+  color: black;
+  background-color: aliceblue;
+}
+.tab{
+  cursor: pointer;
+  padding:10px;
+
+}
+.tab.active {
+  background-color:#CCC;
+}
+.tab:hover{
+  background-color:#AAA;
+}
+.tab-content{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 15%;
+}
+
+/**/
+
+  
+  

@@ -1,0 +1,86 @@
+/* 7th start Our Pricing plan  */
+.our-pricing-plan {
+  background: #f9f9f9;
+  padding: 85px 0px;
+}
+.pricing-content{
+  text-align: center;
+  text-transform: capitalize;
+  border: 3px solid #fff;
+  transition: 0.6s all ease-in-out;
+}
+
+.pricing-content h2 {
+  font-family: Myriad Pro;
+  color: #00cce1;
+  font-weight: 600;
+  transition: 0.5s all ease-in-out;
+  margin-top: 15px;
+}
+
+.pricing-content p {
+  font-family: Myriad Pro;
+  color: #707070;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.pricing-content .btn {
+  background: transparent;
+  border: transparent;
+  background: #00cce1;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 6px 27px;
+  text-decoration: none;
+  border-radius: 0px;
+  margin-bottom: 24px;
+  transition: 0.4s all ease-in-out;
+}
+
+.value {
+  background: #fff;
+  color: #00cce1;
+  padding: 11px 0px;
+  transition: 0.8s all ease-in-out;
+}
+
+.value h1 {
+  font-family: Myriad Pro;
+  font-weight: 600;
+  transition: 0.7s all ease-in-out;
+}
+
+.value h6 {
+  font-family: Myriad Pro;
+  transition: 0.5s all ease-in-out;
+}
+.pricing-content:hover {
+  box-shadow: 0 0px 4px 3px #f69165;
+}
+
+.pricing-content:hover h2 {
+  color: #f69165;
+  transform-origin: right;
+}
+
+.pricing-content:hover .value {
+  background-color: #f69165;
+  color: #fff;
+}
+
+.pricing-content:hover .value h1 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #fff;
+}
+
+.pricing-content:hover .value h6 {
+  color: #fff;
+}
+
+.pricing-content:hover .btn {
+  background-color: #f69165;
+  color: #fff;
+}
+/* 7th End Our pricing Plan section */
